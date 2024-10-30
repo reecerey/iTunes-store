@@ -1,0 +1,29 @@
+.search-bar-container {
+    flex: 0 0 90%;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .search-bar-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .search-bar-button-container {
+    margin-left: 10px;
+  }
+  
+  .btn-outline-secondary {
+    color: #ffffff;
+    border-color: #6c757d;
+    background-color: #343a40;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  

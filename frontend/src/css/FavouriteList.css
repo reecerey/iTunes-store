@@ -1,0 +1,70 @@
+.favourites-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.favourites-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.favourites-row:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.favourites-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.favourites-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.favourites-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.favourites-album {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.favourites-artist {
+  font-size: 1rem;
+  color: #777;
+  margin: 0;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}

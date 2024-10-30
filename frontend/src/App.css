@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../public/apple_background.jpg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.app-title {
+  text-align: center;
+  margin: 20px 0;
+  color: #cdcdcd;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.btn-primary, .btn-secondary {
+  margin: 5px;
+}
+
+.search-container,
+.results-container,
+.favourites-container {
+  padding-top: 20px;
+}
+
+.search-card,
+.results-card,
+.favourites-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+  background-color: #6c757d;
+}
+
+.search-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary, .btn-secondary {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #5a6268;
+  border-color: #545b62;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-secondary {
+  background-color: #5a6268;
+  border-color: #545b62;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #343a40;
+  border-color: #343a40;
+}
